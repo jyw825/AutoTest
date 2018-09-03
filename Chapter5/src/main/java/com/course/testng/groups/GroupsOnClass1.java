@@ -2,7 +2,7 @@ package com.course.testng.groups;
 
 
 import org.testng.annotations.Test;
-
+//组测试中的类测试
 @Test(groups = "stu")
 public class GroupsOnClass1 {
 
