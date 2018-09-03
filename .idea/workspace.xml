@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beeadb0b-f3cd-4840-8fd6-eb906589a6b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/ParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/ParameterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/resources/Paramter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/Paramter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/Paramter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/Paramter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/paramter/ParameterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/paramter/ParameterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProviderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chepter5/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
@@ -49,13 +45,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2547" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="2670" />
           <entry key="xml" value="484" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2547" />
+          <entry key="JAVA" value="2670" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="484" />
         </counts>
       </usages-collector>
@@ -152,11 +150,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProviderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
               </folding>
@@ -211,6 +210,7 @@
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/Paramter.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/ParameterTest.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProviderTest.java" />
       </list>
     </option>
   </component>
@@ -221,7 +221,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1776" />
     <option name="y" value="417" />
     <option name="width" value="1346" />
@@ -305,7 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535978955163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535981805048" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -324,11 +324,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/jiangyuwei/gitcode/AutoTest/Chapter5/src/main/resources/Paramter.xml">
+  <component name="RunManager" selected="TestNG.DataProviderTest (1)">
     <configuration name="C:/Users/jiangyuwei/gitcode/AutoTest/Chapter5/src/main/resources/Paramter.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/Paramter.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.paramter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.paramter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.paramter.DataProviderTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.paramter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.paramter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.paramter.DataProviderTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -345,42 +377,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.course.testng" />
       <option name="MAIN_CLASS_NAME" value="com.course.testng.DependTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependTest.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.DependTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependTest.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.DependTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -406,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.DependTest.test2" />
-      <item itemvalue="TestNG.DependTest.test1" />
       <item itemvalue="TestNG.DependTest" />
       <item itemvalue="TestNG.ParameterTest.paramTest1" />
       <item itemvalue="TestNG.C:/Users/jiangyuwei/gitcode/AutoTest/Chapter5/src/main/resources/Paramter.xml" />
+      <item itemvalue="TestNG.DataProviderTest" />
+      <item itemvalue="TestNG.DataProviderTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DataProviderTest (1)" />
+        <item itemvalue="TestNG.DataProviderTest" />
         <item itemvalue="TestNG.C:/Users/jiangyuwei/gitcode/AutoTest/Chapter5/src/main/resources/Paramter.xml" />
         <item itemvalue="TestNG.ParameterTest.paramTest1" />
         <item itemvalue="TestNG.DependTest" />
-        <item itemvalue="TestNG.DependTest.test2" />
-        <item itemvalue="TestNG.DependTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -436,9 +432,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependTest_test2 - 2018.09.03 at 11h 00m 02s.xml">
-      <configuration name="DependTest.test2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DependTest_test1 - 2018.09.03 at 11h 00m 08s.xml">
       <configuration name="DependTest.test1" configurationId="TestNG" />
     </history-entry>
@@ -465,6 +458,9 @@
     </history-entry>
     <history-entry file="C__Users_jiangyuwei_gitcode_AutoTest_Chapter5_src_main_resources_Paramter_xml - 2018.09.03 at 20h 25m 43s.xml">
       <configuration name="C:/Users/jiangyuwei/gitcode/AutoTest/Chapter5/src/main/resources/Paramter.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DataProvider - 2018.09.03 at 21h 33m 43s.xml">
+      <configuration name="DataProvider" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -646,11 +642,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProvider.java">
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/paramter/DataProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#168#169#0" expanded="true" />
           </folding>
