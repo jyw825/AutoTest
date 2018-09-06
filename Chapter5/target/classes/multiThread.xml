@@ -16,16 +16,16 @@
         <classes name = "d">
             <class name = "com.course.testng.multithread.MultiThreadOnXml"/>
         </classes>
-  <!--      <classes name = "d1">
+       <classes name = "d1">
             <class name = "com.course.testng.multithread.MultiThreadOnXml"/>
             <class name = "com.course.testng.BasicAnnotation"/>
             <class name = "com.course.testng.multithread.MultiThreadOnXml"/>
-        </classes> -->
+        </classes>
     </test>
-    <!--
+
         <test name = "demo2">
             <classes name="d2">
                 <class name = "com.course.testng.BasicAnnotation"/>
             </classes>
-        </test>  -->
+        </test>
 </suite>
