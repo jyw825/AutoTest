@@ -13,10 +13,10 @@ public class TimeOutTest {
     public void testFailed() throws InterruptedException{
         Thread.sleep(3000);
         System.out.println(3);
-        }
+    }
     @Test
     public void test1(){
         System.out.println("1");
     }
-    }
+}
 

@@ -44,5 +44,4 @@ public class BasicAnnotation {
     public void afterSuite(){
         System.out.println("AfterSuite测试套件");
     }
-
 }
