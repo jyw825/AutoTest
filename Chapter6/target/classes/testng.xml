@@ -16,7 +16,8 @@
 
     <!--监听器 -->
     <listeners>
-        <listener class-name = "com.vimalselvam.testng.listener.ExtentTestNgFormatter" />  <!-- 用哪个类来监听 -->
+        <!--<listener class-name = "com.vimalselvam.testng.listener.ExtentTestNgFormatter" />  &lt;!&ndash; 用哪个类来监听 &ndash;&gt;-->
+        <listener class-name="com.tester.extend.demo.ExtentTestNGIReportListenerOld"/>
     </listeners>
 
 </suite>
